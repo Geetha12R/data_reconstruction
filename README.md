@@ -69,4 +69,4 @@ Each problem file should contain the logic of how to load the data and
 the parameters necessary to build the model. 
 
 
-```
+#### Note: This work is an extension of https://arxiv.org/pdf/2206.07758.pdf
