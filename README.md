@@ -20,11 +20,11 @@ conda activate rec
 ## Running the Code
 
 ### Notebooks
-For quick access, start by running the provided notebooks for analysing the (already provided) 
-reconstructions of two (provided) models for multi-class CIFAR10 (vehicles/animals):
+For quick access, start by running the provided notebook for analysing the (already provided) 
+reconstructions for multi-class CIFAR10 (vehicles/animals) using a trained Convolutional Neural Network:
 
 - ```reconstruction_cifar10_cnn.ipynb```
-- ```reconstruction_mnist.ipynb```
+<!-- - ```reconstruction_mnist.ipynb``` -->
 
 
 ### Reproducing the provided trained models and their reconstructions
@@ -47,8 +47,8 @@ To find the right hyperparameters for reconstructing samples from the above mode
 In general, it is still an open question how to find the right hyperparameters 
 for our losses without trial and error.
 
-Alter the hyperparameter ranges in ```wandb/sweep.yaml``` and run it with:
-```wandb sweep wandb/sweep.yaml```
+Try out different hyperparameter ranges by a ```sweep.yaml``` and run it with:
+```wandb sweep <path>/sweep.yaml```
 
 #### Reconstructions
 
